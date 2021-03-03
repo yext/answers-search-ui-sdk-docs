@@ -30,7 +30,7 @@ apiProperties:
     description: additional properties to send with every analytics event
 ---
 
-blah blah blah this is version 0.6 of answers components
+blah blah blah blah this is version 0.6 of answers components
 
 ## Overview
 
