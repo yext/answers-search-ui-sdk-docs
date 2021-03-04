@@ -138,7 +138,7 @@ eventOptions: `{
   }
 ```
 
-### Properites:
+### Properties:
 
 - `verticalKey`: The vertical key for the CTA. If unspecified, it will default to the vertical of the card on which this CTA is placed (either from VerticalResults or UniversalResults). 
 - `entityId`: The entity ID for the card on which this CTA is placed.  If unspecified, it will default to the `entityId` field in Knowledge Graph
