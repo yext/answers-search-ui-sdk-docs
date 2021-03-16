@@ -1,11 +1,10 @@
 ---
-title: Welcome to Answers JS
+title: Welcome to Answers Search UI SDK
 component: false
 order: 1
 ---
 
-Answers JS is a JavaScript library that helps you build search experiences
-on top of the Yext Answers product.
+Answers Search UI is a JavaScript SDK that helps you build search experiences on top of the Yext Answers product.
 # Quick Start
 Looking to quickly try out an Answers experience? The following example uses a basic test account; if you'd like to use your own, replace `apiKey`, `experienceKey` and `businessId` with your own values. 
 
