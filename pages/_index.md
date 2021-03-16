@@ -1,4 +1,4 @@
 ---
-title: Guides
+title: Pages
 order: 4
 ---
