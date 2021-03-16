@@ -1,4 +1,4 @@
 ---
-title: Answers SDK
+title: Answers Search UI SDK
 component: false
 ---
