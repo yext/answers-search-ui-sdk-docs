@@ -21,7 +21,7 @@ apiProperties:
   - property: submitIcon
     type: string
     default: 
-    description: Specify pre-built icon for the search bar. If none is specified, the animated search icon will be used.       
+    description: Specify pre-built icon for the search bar. If none is specified, the animated search icon will be used. See [icons](/components/icon).       
   - property: customIconUrl
     type: string
     default:
