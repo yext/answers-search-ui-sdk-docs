@@ -172,23 +172,29 @@ To apply configuration for particular facet fields, use the `transformFacets` op
 Here's an example of using this option to customize a boolean facet and make it searchable.
 
 ```js
-transformFacets: facets => {
-  return facets.map(facet => {
-    const options = facet.options.map(option => {
+transformFacets: (facets, config) => {
+  console.log(config);
+  return facets.map((facet) => {
+    console.log(facet);
+    const options = facet.options.map((option) => {
       let displayName = option.displayName;
-      if (facet.fieldId === 'c_acceptingNewPatients') {
-        if (option.value === false) { displayName = "Not Accepting Patients"; }
-        if (option.value === true) { displayName = "Accepting Patients"; }
+      if (facet.fieldId === "c_acceptingNewPatients") {
+        if (option.value === false) {
+          displayName = "Not Accepting Patients";
+        }
+        if (option.value === true) {
+          displayName = "Accepting Patients";
+        }
       }
-      let searchable = false;
-      if (facet.fieldId === 'paymentOptions') {
-        searchable = true
-      }
-      return Object.assign({}, option, { displayName, searchable });
+      return Object.assign({}, option, { displayName });
     });
-    return Object.assign({}, facet, { options });
+    let searchable = false;
+    if (facet.fieldId === "paymentOptions") {
+      searchable = true;
+    }
+    return Object.assign({}, facet, { options, searchable });
   });
-},
+}
 ```
 
 {{% codesandbox wandering-rain-4y8hp %}}
