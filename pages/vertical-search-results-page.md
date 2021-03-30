@@ -3,7 +3,7 @@ title: Vertical Search Results Page
 order: 2
 ---
 
-A Vertical Search Results Page displays results for a single vertical.
+A Vertical Search Results Page displays results for a single vertical. You can read more about each individual component referenced here in the [Component](/components) section. 
 
 ## Recommended Components
 

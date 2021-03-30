@@ -3,7 +3,7 @@ title: Universal Search Results Page
 order: 1
 ---
 
-A Universal Search Results Page combines results from multiple verticals into a set of results.
+A Universal Search Results Page combines results from multiple verticals into a set of results. You can read more about each individual component referenced here in the [Component](/components) section. 
 
 ## Recommended Components
 
