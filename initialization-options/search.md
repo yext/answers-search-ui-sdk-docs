@@ -20,12 +20,12 @@ apiProperties:
 ---
 
 ## Background
-The `search` configuration in the initialization is used to control the default initial search and the number of results per page. Notably, it is only relevant for vertical search pages. 
+The `search` configuration in the initialization is used to control the default initial search and the number of results per page. It can be used to set a default initial search on both vertical and universal search pages.
 
 ```js
     search: {
-      verticalKey: 'verticalKey',
-      limit: '20',
+      verticalKey: 'verticalKey', //don't specify this property if universal
+      limit: '20', //not applicable to universal search
       defaultInitialSearch: 'What is Yext Answers?',
     }
 ```

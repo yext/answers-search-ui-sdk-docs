@@ -32,7 +32,7 @@ apiProperties:
   - property: allowEmptySearch
     type: boolean
     default: false
-    description: On vertical search only, allow a user to conduct an empty search. Should be set to true if the defaultInitialSearch in the [top level search configuration](/core-concepts/initialization) is "".         
+    description: Allow a user to conduct an empty search. Should be set to true if the defaultInitialSearch in the [top level search configuration](/core-concepts/initialization) is "".         
   - property: autoFocus
     type: boolean
     default: false
