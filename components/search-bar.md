@@ -17,7 +17,11 @@ apiProperties:
   - property: submitText
     type: string
     default:
-    description: The label of the submit button. Hidden by default.      
+    description: The label of the submit button. Hidden by default.
+  - property: submitIcon
+    type: string
+    default: 
+    description: Specify pre-built icon for the search bar. If none is specified, the animated search icon will be used.       
   - property: customIconUrl
     type: string
     default:
