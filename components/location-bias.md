@@ -1,5 +1,5 @@
 ---
-title: Location Bias
+title: LocationBias
 order: 15
 component: true
 appliesTo: Both

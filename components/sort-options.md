@@ -1,5 +1,5 @@
 ---
-title: Sort Options
+title: SortOptions
 order: 11
 component: true
 appliesTo: Vertical

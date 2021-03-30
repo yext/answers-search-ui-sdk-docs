@@ -1,5 +1,5 @@
 ---
-title: Search Bar
+title: SearchBar
 order: 1
 component: true
 appliesTo: Both
