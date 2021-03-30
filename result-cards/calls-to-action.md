@@ -34,7 +34,7 @@ ANSWERS.addComponent("VerticalResults", {
 
 ## Static List of CTAs
 
-The easiest way to specify CTAs is as an array of objects. Every CTA must have a `label`, `url`, `analytics` and `eventOptions`. (See [below](#eventoptions) for more information on `eventOptions`.) 
+The easiest way to specify CTAs is as an array of objects. Every CTA must have a `label`, `url`, `analyticsEventType` and `eventOptions`. (See [below](#eventoptions) for more information on `eventOptions`.) 
 
 ```js
 const callsToAction = [
@@ -42,7 +42,7 @@ const callsToAction = [
     label: "cta label",
     icon: "star",
     url: "https://yext.com",
-    analytics: "CTA_CLICK",
+    analyticsEventType: "CTA_CLICK",
     target: "_blank",
     eventOptions: (result) => {
       return {
@@ -63,7 +63,7 @@ const callsToAction = (item) => [
   {
     label: (item) => item.name,
     url: (item) => item.url,
-    analytics: "CTA_CLICK",
+    analyticsEventType: "CTA_CLICK",
     target: "_self",
     icon: "briefcase",
     eventOptions: (item) =>
@@ -87,7 +87,7 @@ const callsToAction = (item) => [
   {
     label: item.name,
     url: "https://yext.com",
-    analytics: "CTA_CLICK",
+    analyticsEventType: "CTA_CLICK",
     target: "_blank",
     icon: "briefcase",
     eventOptions: `{ 
@@ -100,7 +100,7 @@ const callsToAction = (item) => [
   {
     label: "call now",
     url: "https://maps.google.com",
-    analytics: "CTA_CLICK",
+    analyticsEventType: "CTA_CLICK",
     target: "_blank",
     icon: "phone",
     eventOptions: `{
