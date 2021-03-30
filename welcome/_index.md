@@ -20,7 +20,7 @@ Copy-paste the stylesheet `<link>` into your `<head>` before all other styleshee
 ## JS
 Next, add the JS lib. Place the following `<script>` in your `<head>` tag. 
 ```html
-<script src="https://assets.sitescdn.net/answers/v1/answers.js"></script>
+<script src="https://assets.sitescdn.net/answers/v1/answers.min.js"></script>
 ```
 ## HTML
 Next, you'll need to place some `<div>`s in in your page's `<body>`. These `<div>`s have class names that match those specified in the component configuration, and is where the library will place the components. 
