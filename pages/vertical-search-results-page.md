@@ -5,6 +5,10 @@ order: 2
 
 A Vertical Search Results Page displays results for a single vertical. You can read more about each individual component referenced here in the [Component](/components) section. 
 
+{{< protip >}}
+   All the components you add here should be on a new, separate HTML page from the [Universal Search Results Page](/pages/universal-search-results-page). 
+{{< /protip >}}
+
 ## Recommended Components
 
 | Component         | Description                                                             |
