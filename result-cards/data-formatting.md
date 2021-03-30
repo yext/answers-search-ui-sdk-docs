@@ -41,3 +41,24 @@ ANSWERS.addComponent('VerticalResults', {
     }
 }
 ```
+
+
+## Text Highlighting
+
+You can optionally display highlighted fields in your card data mappings. A field becomes highlighted when it's has either either a text search match or a document search match. The `_highlighted`  object, will return the field highlighted with strong tags. You can accesss it in a custom item template. 
+
+```js
+this.addComponent("VerticalResults", {
+    container: ".vertical-container",
+    verticalKey: "locations",
+    itemTemplate: `<div>
+        {{#if result._highlighted.description}}
+            {{{ result._highlighted.description }}}
+        {{else}}
+            {{result._raw.description}}
+        {{/if}}
+    </div>`
+    });
+```
+
+This will display the text highlighting for the `description` field only when it returns, otherwise it will display the raw value. 
