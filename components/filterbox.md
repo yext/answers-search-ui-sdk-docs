@@ -71,7 +71,7 @@ apiProperties:
 
 ## Background
 
-The `FilterBox` component allows users to add multiple static filter components together, including [FilterOptions](/components/filter-options). Configuration on the top-level FilterBox component carries through to the individual filter components. Use `FilterBox` instead of individual filter components if:
+The `FilterBox` component allows users to add multiple static filter components together, including [FilterOptions](../filter-options). Configuration on the top-level FilterBox component carries through to the individual filter components. Use `FilterBox` instead of individual filter components if:
 - A single apply button should impact all filters
 - The filters are grouped together visually
 - A set of static filter components should share settings

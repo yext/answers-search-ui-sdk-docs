@@ -53,4 +53,4 @@ ANSWERS.addComponent('VerticalResults', {
 })
 ```
 
-Each cardtype has standard attributes that it expects in the returned `dataMappings` object. You can read more about these in the [Built-In Cards Section](/result-cards/built-in-cards). 
+Each cardtype has standard attributes that it expects in the returned `dataMappings` object. You can read more about these in the [Built-In Cards Section](../built-in-cards). 

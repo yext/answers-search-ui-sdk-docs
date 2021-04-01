@@ -24,7 +24,7 @@ apiProperties:
     description: Whether to display the total number of results
   - property: card
     type: object
-    description: The card used to display each individual result, see the [Cards](/result-cards) section for more details
+    description: The card used to display each individual result, see the [Cards](../result-cards) section for more details
   - property: noResults
     type: object
     description: Configuration for what to display when no results are found
@@ -44,7 +44,7 @@ The `VerticalResults` component is similar to `UniversalResults` but just render
 single vertical. It displays a list of results where each result is rendered as a card.
 
 > To learn more about how to design a full Vertical Results pages, check out the
-> [Vertical Search Results](/guides/vertical-search-results-page).
+> [Vertical Search Results](../pages/vertical-search-results-page).
 
 ## Specifying the Vertical
 
@@ -97,8 +97,8 @@ ANSWERS.addComponent("VerticalResults", {
 ## Customizing Result Cards
 
 To customize the result card you should adjust the `card` property. Specifically, use the `dataMappings` and `callsToAction` to customize
-the look and the feel of the card. You can learn more in the [Result Cards Guide](/result-cards).
+the look and the feel of the card. You can learn more in the [Result Cards Guide](../../result-cards).
 
 ## No Results
 
-With version 0.13.1, you can show all results when no results return, and link to other verticals that return results. See more in our [Vertical No Results Guide](/guides/vertical-no-results)
+With version 0.13.1, you can show all results when no results return, and link to other verticals that return results. See more in our [Vertical No Results Guide](../../pages/vertical-no-results)

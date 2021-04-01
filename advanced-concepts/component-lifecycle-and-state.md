@@ -38,13 +38,13 @@ If you'd like to completely replace our lifecycle methods, you can use the follo
 - `onMountOverride`
 - `onUpdateOverride`
 
-We **recommend using these methods sparingly**, since you will impact the core functionality of the component. If you find yourself needing to use the overrides, we recommend looking at [creating custom components](/advanced-concepts/custom-components).
+We **recommend using these methods sparingly**, since you will impact the core functionality of the component. If you find yourself needing to use the overrides, we recommend looking at [creating custom components](../custom-components).
 
 
 ## State
 As described above, components also react to their surrounding environment, called the state. Changes in state can trigger certain lifecycle methods, such  as `unMount` and `Mount`.
 
-Each component has a `setState` method. This is not exposed currently to implementers using the SDK's built-in components, but is helpful context (and can be used when [creating custom components](/advanced-concepts/custom-components)).
+Each component has a `setState` method. This is not exposed currently to implementers using the SDK's built-in components, but is helpful context (and can be used when [creating custom components](../custom-components)).
 
 When called, the `setState` method will re-render a component. Said method can be triggered in a few ways: 
 
@@ -52,4 +52,4 @@ When called, the `setState` method will re-render a component. Said method can b
 Going back to our `UniversalResults` example; when the results update, this component will re-render to reflect the new results. Behind the scenes, the component is listening to changes to the `Universal Results` key in global storage. When said key changes, `setState` is called on the `UniversalResults` component. The component is unmounted and then mounted again with the new results.
 
 
-2. If the component has custom JS. For example, the [Location Bias](/components/location-bias) component has custom JS for disabling the geolocation prompt if a user has denied it. This calls `setState` to set the current display name and accuracy (which will likely be IP accuracy).
+2. If the component has custom JS. For example, the [Location Bias](../../components/location-bias) component has custom JS for disabling the geolocation prompt if a user has denied it. This calls `setState` to set the current display name and accuracy (which will likely be IP accuracy).

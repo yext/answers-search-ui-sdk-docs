@@ -97,12 +97,12 @@ Putting this together a full HTML page could look like this:
 
 ## Overriding a Template
 
-To completely override the UI of a component, you can pass in a custom Handlebars template to the `template` option. See [custom templates](/advanced-concepts/custom-templates) for more information.
+To completely override the UI of a component, you can pass in a custom Handlebars template to the `template` option. See [custom templates](../../advanced-concepts/custom-templates) for more information.
 
 ## Custom Rendering
 
-If you want to use a different templating language, you can use the `render` option. This option accepts a function that returns HTML. See [custom rendering](/advanced-concepts/custom-rendering) for more information.
+If you want to use a different templating language, you can use the `render` option. This option accepts a function that returns HTML. See [custom rendering](../../advanced-concepts/custom-renderer) for more information.
 
 ## Custom Components
 
-If you want to create completely custom components, see [custom components](/advanced-concepts/custom-components) for more information.
+If you want to create completely custom components, see [custom components](../../advanced-concepts/custom-components) for more information.

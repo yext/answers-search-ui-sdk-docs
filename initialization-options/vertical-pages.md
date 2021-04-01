@@ -40,7 +40,7 @@ apiProperties:
 ---
 
 ## Configuration
-`verticalPages` is included in the initialization, and is used in various components that require information about the vertical search pages, including [Navigation](/components/navigation), [Universal Results](/components/universal-results) and [No Results](/guides/vertical-no-results) in [Vertical Results](/components/vertical-results). It takes an array of objects, each representing a vertical search page. 
+`verticalPages` is included in the initialization, and is used in various components that require information about the vertical search pages, including [Navigation](../../components/navigation), [Universal Results](../../components/universal-results) and [No Results](../../pages/vertical-no-results) in [Vertical Results](../../components/vertical-results). It takes an array of objects, each representing a vertical search page. 
 
 ```js
 ANSWERS.init({

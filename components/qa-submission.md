@@ -81,7 +81,7 @@ apiProperties:
 ## Background
 To fully set up this module, we recommend going through our [Hitchhiker Training](https://hitchhikers.yext.com/tracks/answers-advanced/ans322-q-and-a-component/), which covers how to add create an organization entity, enable the Q&A feature and answer questions.
 
-QASubmission is a form that appears at the bottom of the [Universal Search Page](/guides/universal-search-results-page) or vertical search page. It allows a user to submit a question, along with their name and email. If a user is unable to find what s/he is looking for, they can submit a question.
+QASubmission is a form that appears at the bottom of the [Universal Search Page](../../pages/universal-search-results-page) or vertical search page. It allows a user to submit a question, along with their name and email. If a user is unable to find what s/he is looking for, they can submit a question.
 
 When a user submits a question, it creates an instance of first party Q&A within Yext. This is available in the listings tab, under Q&A. You can then answer questions within Yext. The answer is sent to the end user’s email (inputted when s/he submitted a question). 
 

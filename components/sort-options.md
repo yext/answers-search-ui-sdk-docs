@@ -126,7 +126,7 @@ ANSWERS.addComponent('SortOptions', {
 ```
 
 ## Advanced Configuration
-Beyond the basic configuration options, you can also control various settings similar to the [FilterOptions](/components/filter-options) and [Facets](/components/facets). These include `showMore`, `showMoreLimit`, `showMoreLabel`, `showLessLabel`, `searchOnChange` and `applyLabel`. 
+Beyond the basic configuration options, you can also control various settings similar to the [FilterOptions](../filter-options) and [Facets](../facets). These include `showMore`, `showMoreLimit`, `showMoreLabel`, `showLessLabel`, `searchOnChange` and `applyLabel`. 
 
 Finally, you can control the `defaultSortLabel`, which is the label for the option that is selected on load and corresponds to the default sort. You can show a reset button via `showReset`, and the label of that button via `resetLabel`.
 

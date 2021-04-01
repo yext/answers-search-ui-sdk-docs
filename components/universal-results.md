@@ -65,7 +65,7 @@ apiProperties:
       default: VERTICAL_KEY.html
     - property: viewMore
       type: boolean
-      description: Whether to display a view more link at the bottom of the universal results section for this vertical. `Url`, or the `verticalPages`.`url` initialization option must be populated. See more on `verticalPages` [here](/initialization-options/vertical-pages).
+      description: Whether to display a view more link at the bottom of the universal results section for this vertical. `Url`, or the `verticalPages`.`url` initialization option must be populated. See more on `verticalPages` [here](../../initialization-options/vertical-pages).
       default: true
     - property: viewMoreLabel
       type: string
@@ -136,10 +136,10 @@ apiProperties:
 
 ## Background
 
-The `UniversalResults` component renders a set of verticals. Each vertical is rendered as a section. Each section includes a list of results, where each result is rendered as a card. Visually, there are lots of similarities between each vertical section and the Vertical Results component. That's because, under the hood, Universal Results uses [Vertical Results component](/components/vertical-results) to render the sections and their results. 
+The `UniversalResults` component renders a set of verticals. Each vertical is rendered as a section. Each section includes a list of results, where each result is rendered as a card. Visually, there are lots of similarities between each vertical section and the Vertical Results component. That's because, under the hood, Universal Results uses [Vertical Results component](../vertical-results) to render the sections and their results. 
 
 > To learn more about how to design a full Universal Results pages, check out the
-> [Universal Search Results](/guides/universal-search-results-page).
+> [Universal Search Results](../../pages/universal-search-results-page).
 
 ## The Configuration Object
 
