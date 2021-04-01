@@ -37,4 +37,4 @@ ANSWERS.addComponent('SearchBar', {
 
 ## Which Should I Use?
 
-`registerTemplate` is helpful because it can be called at any point (whereas your `addComponent` can be called once), therefore allowing for dynamic templates. However, in most cases, defining the template inline will suffice. `registerTemplate` is most helpful for [creating custom components](../../custom-components/).
+`registerTemplate` is helpful because it can be called at any point (whereas your `addComponent` can be called once), therefore allowing for dynamic templates. However, in most cases, defining the template inline will suffice. `registerTemplate` is most helpful for [creating custom components](../custom-components/).
