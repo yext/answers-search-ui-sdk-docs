@@ -6,7 +6,7 @@ appliesTo: Both
 apiProperties:
   - property: verticalKey
     type: string
-    description: The vertical for the search bar. Required if used in vertical search, and not included in the [top level search configuration](/core-concepts/initialization).
+    description: The vertical for the search bar. Required if used in vertical search, and not included in the [top level search configuration](../../initialization-options/search).
   - property: query
     type: string
     description: The initial search term in the search bar. Does not apply a query
@@ -32,7 +32,7 @@ apiProperties:
   - property: allowEmptySearch
     type: boolean
     default: false
-    description: On vertical search only, allow a user to conduct an empty search. Should be set to true if the defaultInitialSearch in the [top level search configuration](/core-concepts/initialization) is "".         
+    description: On vertical search only, allow a user to conduct an empty search. Should be set to true if the defaultInitialSearch in the [top level search configuration](../../initialization-options/search) is "".         
   - property: autoFocus
     type: boolean
     default: false
@@ -148,7 +148,7 @@ ANSWERS.addComponent("SearchBar", {
 Often you want to add a Search Bar to a page but then redirect to a search results page.
 This is accomplished via the `redirectUrl` property. If this property is filled out,
 the search will redirect when a user hits submit. This URL should be a search results page that includes
-a [`UniversalResults`](/components/universal-results) or [`VerticalResults`](/components/vertical-results) component.
+a [`UniversalResults`](../universal-results) or [`VerticalResults`](../vertical-results) component.
 
 ## Using HTML5 Geolocation
 

@@ -7,7 +7,7 @@ With version 0.13.1, you can show all results when no results return, and link t
 
 
 ## Basic Template
-In version 0.13.1 and up, you can specify `noResults` in your [verticalResults](/components/vertical-results) component: 
+In version 0.13.1 and up, you can specify `noResults` in your [verticalResults](../../components/vertical-results) component: 
 ```js
 ANSWERS.addComponent("VerticalResults", {
   container: ".vertical-results-container",

@@ -25,7 +25,7 @@ ANSWERS.addComponent('SearchBar', {
 ```
 
 ## Example
-Here's an example of using a custom data transform for the [DirectAnswer component](/components/direct-answer).
+Here's an example of using a custom data transform for the [DirectAnswer component](../../components/direct-answer).
 
 ### Code
 {{% codesandbox hopeful-meitner-wzfbf %}}

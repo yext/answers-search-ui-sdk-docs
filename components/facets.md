@@ -6,7 +6,7 @@ appliesTo: Vertical
 apiProperties:
   - property: verticalKey
     type: string
-    description: the vertical for which these facets apply. Required if not included in the [top level search configuration](/core-concepts/initialization).
+    description: the vertical for which these facets apply. Required if not included in the [top level search configuration](../../core-concepts/initialization).
   - property: title
     type: string
     default: "Filters"

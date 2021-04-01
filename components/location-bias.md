@@ -6,7 +6,7 @@ appliesTo: Both
 apiProperties:
   - property: verticalKey
     type: string
-    description: If used on Vertical Search Page, the `verticalKey` for the vertical. Required if not included in [top level search configuration](/core-concepts/initialization).
+    description: If used on Vertical Search Page, the `verticalKey` for the vertical. Required if not included in [top level search configuration](../../initialization-options/search).
   - property: updateLocationEl
     type: string
     default: .js-locationBias-update-location
@@ -59,7 +59,7 @@ The location bias shows the user where we think they are located.
 The purpose of this component is to inform the user as well as to allow them to opt in for HTML5 geolocation.
 It is recommended to display this at the bottom of any search results page.
 
-> Note: If you want to allow a user to select a location check out the `GeoLocationFilter` component [here](/components/geolocationfilter).
+> Note: If you want to allow a user to select a location check out the `GeoLocationFilter` component [here](../geolocationfilter).
 
 ## Default Styling
 
@@ -71,7 +71,7 @@ If the user has opted in to HTML5 Gelocation, then the component looks something
 
 ## Basic Configuration
 
-The only required option is `verticalKey` when this is used on Vertical Search Results Page (if not included in [top level search configuration](/core-concepts/initialization)).
+The only required option is `verticalKey` when this is used on Vertical Search Results Page (if not included in [top level search configuration](../../initialization-options/search)).
 
 ```html
 <div class="location-bias-container"></div>
@@ -86,7 +86,7 @@ ANSWERS.addComponent("LocationBias", {
 ## Advanced Configuration
 
 ### HTML5 Geolocation
-Similar to the [SearchBar component](/components/search-bar), you can adjust the options passed to the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition).
+Similar to the [SearchBar component](../search-bar), you can adjust the options passed to the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition).
 
 You can reduce the timeout (`geolocationOptions.timeout`) or increase the maximum age for a geolocation request (`geolocationOptions.maximumAge`) and add an optional alert if the request fails (`geolocationTimeoutAlert`). 
 

@@ -59,9 +59,9 @@ ANSWERS.addComponent("DirectAnswer", {
 ```
 
 ## Formatting Data in a Direct Answer
-You can format data in a direct answer using the `transformData` hook outlined [here](/advanced-concepts/custom-data-transforms#example).
+You can format data in a direct answer using the `transformData` hook outlined [here](../../advanced-concepts/custom-data-transforms#example).
 
 ## Example
-In this example, we've overridden the `viewDetailsText` and the `footerTextOnSubmission`. We're also using a [Custom Data Transform](/advanced-concepts/custom-data-transforms) to override the formatting for a phone number.
+In this example, we've overridden the `viewDetailsText` and the `footerTextOnSubmission`. We're also using a [Custom Data Transform](../../advanced-concepts/custom-data-transforms) to override the formatting for a phone number.
 
 {{% codesandbox hopeful-meitner-wzfbf %}} 

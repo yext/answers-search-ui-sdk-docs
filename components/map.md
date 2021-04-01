@@ -85,14 +85,14 @@ apiProperties:
 
 ## Background
 
-The map component is displayed on both universal and vertical search pages. It's added on a [Vertical Search Page](/docs/answers-sdk/guides/vertical-search-results-page), but included as a subcomponent on a Universal Page, within [Universal Results](/docs/answers-sdk/components/universal-results) on a [Universal Search Page](/docs/answers-sdk/guides/universal-search-results-page).
+The map component is displayed on both universal and vertical search pages. It's added on a [Vertical Search Page](../../pages/vertical-search-results-page), but included as a subcomponent on a Universal Page, within [Universal Results](../universal-results) on a [Universal Search Page](../../pages/universal-search-results-page).
 
 ![Map on Universal Page](/img/docs/map-universal.png)
 ![Stand-Alone Map on Vertical Page](/img/docs/map-vertical.png)
 
 ## Basic Configuration
 
-The basic config for a map requires the `apiKey` and the `mapProvider`. All other configuration is optional. We also recommend adding the no results configuration, assuming you are displaying all results as outlined [here](/guides/vertical-no-results)
+The basic config for a map requires the `apiKey` and the `mapProvider`. All other configuration is optional. We also recommend adding the no results configuration, assuming you are displaying all results as outlined [here](../../pages/vertical-no-results)
 
 ```html
 <div class="map-container"></div>

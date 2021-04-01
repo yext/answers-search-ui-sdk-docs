@@ -63,20 +63,20 @@ apiProperties:
     type: function
     required: false
     default: function() {}
-    description: Analytics callback after a vertical search, see [onVerticalSearch Configuration](/initialization-options/on-vertical-search) for additional details 
+    description: Analytics callback after a vertical search, see [onVerticalSearch Configuration](../../initialization-options/on-vertical-search) for additional details 
   - property: onUniversalSearch
     type: function
     required: false
     default: function() {}
-    description: Analytics callback after a universal search, see [onUniversalSearch Configuration](/initialization-options/on-universal-search) for additional details 
+    description: Analytics callback after a universal search, see [onUniversalSearch Configuration](../../initialization-options/on-universal-search) for additional details 
   - property: search
     type: object
     required: false
-    description: Search specific settings, see [Search Configuration](/initialization-options/search). 
+    description: Search specific settings, see [Search Configuration](../../initialization-options/search). 
   - property: verticalPages
     type: array
     required: false
-    description: provide configuration for each vertical that is shared across components, see [Vertical Pages Configuration](/initialization-options/vertical-pages).
+    description: provide configuration for each vertical that is shared across components, see [Vertical Pages Configuration](../../initialization-options/vertical-pages).
   - property: navigation
     type: object
     required: false
@@ -112,8 +112,8 @@ ANSWERS.init({
 });
 ```
 
-The `onReady` property is used to add components. You can learn more about adding components in the [Components](/components) section.
+The `onReady` property is used to add components. You can learn more about adding components in the [Components](../../components) section.
 
 ## Additional Initialization Options
 
-Learn more about additional initialization configuration in the [Initialization Options](/initialization-options) section.
+Learn more about additional initialization configuration in the [Initialization Options](../../initialization-options) section.
