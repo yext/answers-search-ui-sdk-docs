@@ -102,7 +102,7 @@ There are two different types of `FilterOptions`: `STATIC_FILTER` and `RADIUS_FI
 
 > If an option is marked as `selected: true` and you've configured a `defaultInitial` search, 
 > it will be applied to the results on load. See the
-> [Vertical Search Results](/guides/vertical-search-results-page) guide for more information.
+> [Vertical Search Results](../../pages/vertical-search-results-page) guide for more information.
 
 ```js
 {

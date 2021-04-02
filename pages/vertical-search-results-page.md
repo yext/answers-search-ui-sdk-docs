@@ -171,7 +171,7 @@ noResults: {
 }
 ```
 
-To learn more about no results check out the [Vertical No Results Guide](/guides/vertical-no-results).
+To learn more about no results check out the [Vertical No Results Guide](../vertical-no-results).
 
 ## Example
 

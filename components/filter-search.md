@@ -78,7 +78,7 @@ The below [demo](#example) includes some example custom CSS.
 
 ## Configuration
 
-The only required configuration option beyond `container` and `verticalKey` (if not specified in the [top level search configuration initialization](/core-concepts/initialization)) is `searchParameters`. 
+The only required configuration option beyond `container` and `verticalKey` (if not specified in the [top level search configuration initialization](../../core-concepts/initialization)) is `searchParameters`. 
 
 - `searchParameters` specifies which fields should be searchable. It takes in two properties: `sectioned` and `fields`.
 - `fields` takes in an array of field options (`fieldId`, `entityTypeId`). `sectioned` determines if the multiple fields should be seperated by sections.
