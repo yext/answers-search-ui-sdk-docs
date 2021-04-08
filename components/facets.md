@@ -197,5 +197,5 @@ transformFacets: (facets, config) => {
 }
 ```
 
-{{% codesandbox wandering-rain-4y8hp %}}
+{{% codesandbox spring-silence-z9cur %}}
 
