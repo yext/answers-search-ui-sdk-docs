@@ -3,23 +3,23 @@ title: Vertical Search Results Page
 order: 2
 ---
 
-A Vertical Search Results Page displays results for a single vertical. You can read more about each individual component referenced here in the [Component](/components) section. 
+A Vertical Search Results Page displays results for a single vertical. You can read more about each individual component referenced here in the [Components](../../components) section. 
 
 {{< protip >}}
-   All the components you add here should be on a new, separate HTML page from the [Universal Search Results Page](/pages/universal-search-results-page). 
+   All the components you add here should be on a new, separate HTML page from the [Universal Search Results Page](../universal-search-results-page). 
 {{< /protip >}}
 
 ## Recommended Components
 
 | Component         | Description                                                             |
 | ----------------- | ----------------------------------------------------------------------- |
-| `SearchBar`       | Where the user enters their Search                                      |
-| `Navigation`      | Navigate between Universal and Vertical Search using tabs               |
-| `SpellCheck`      | Show UI to correct user's spelling                                      |
-| `Facets`          | Show a list of facets to help the user filter                           |
-| `Pagination`      | Show pagination controls the help the user navigate to subsequent pages |
-| `VerticalResults` | Show the results for the vertical                                       |
-| `LocationBias`    | Show where the search was run from                                      |
+| [`SearchBar`](../../components/search-bar)        | Where the user enters their Search                                      |
+| [`Navigation`](../../components/navigation)      | Navigate between Universal and Vertical Search using tabs               |
+| [`SpellCheck`](../../components/spell-check)       | Show UI to correct user's spelling                                      |
+| [`Facets`](../../components/facets)          | Show a list of facets to help the user filter                           |
+| [`Pagination`](../../components/pagination)      | Show pagination controls the help the user navigate to subsequent pages |
+| [`VerticalResults`](../../components/vertical-results) | Show the results for the vertical                                       |
+| [`LocationBias`](../../components/location-bias)    | Show where the search was run from                                      |
 
 ## Example Code
 

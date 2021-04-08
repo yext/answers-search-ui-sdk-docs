@@ -3,18 +3,18 @@ title: Universal Search Results Page
 order: 1
 ---
 
-A Universal Search Results Page combines results from multiple verticals into a set of results. You can read more about each individual component referenced here in the [Component](/components) section. 
+A Universal Search Results Page combines results from multiple verticals into a set of results. You can read more about each individual component referenced here in the [Components](../../components) section. 
 
 ## Recommended Components
 
-| Component          | Description                                    |
-| ------------------ | ---------------------------------------------- |
-| `SearchBar`        | Where the user enters their Search             |
-| `Navigation`       | Navigate between Universal and Vertical Search |
-| `SpellCheck`       | Show UI to correct user's spelling             |
-| `DirectAnswer`     | Show a direct answer if one is found           |
-| `UniversalResults` | Show the results                               |
-| `LocationBias`     | Show where the search was run from             |
+| Component                                                | Description                                    |
+| -------------------------------------------------------- | ---------------------------------------------- |
+| [`SearchBar`](../../components/search-bar)        | Where the user enters their Search             |
+| [`Navigation`](../../components/navigation)       | Navigate between Universal and Vertical Search |
+| [`SpellCheck`](../../components/spell-check)        | Show UI to correct user's spelling             |
+| [`DirectAnswer`](../../components/direct-answer)      | Show a direct answer if one is found           |
+| [`UniversalResults`](../../components/universal-results) | Show the results                               |
+| [`LocationBias`](../../components/location-bias)     | Show where the search was run from             |
 
 ## Code
 
