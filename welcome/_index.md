@@ -5,6 +5,7 @@ order: 1
 ---
 
 Answers Search UI is a JavaScript SDK that helps you build search experiences on top of the Yext Answers product.
+
 # Quick Start
 Looking to quickly try out an Answers experience? The following example uses a basic test account; if you'd like to use your own, replace `apiKey`, `experienceKey` and `businessId` with your own values. 
 
@@ -137,8 +138,8 @@ Put it all together, your pages should look like this:
 
 
 Here is a fully working example:
-{{% codesandbox blissful-franklin-3t9o0 %}}
+{{% codesandbox suspicious-roentgen-fgmjl %}}
 
 # Next
 
-Now you're up and running with a basic [Universal Results Page](../pages/universal-search-results-page)! Head over to [Core Concepts](../core-concepts/) to learn more about how to use the Answers JS library. 
+Now you're up and running with a basic [Universal Results Page](../pages/universal-search-results-page)! Head over to [Core Concepts](../core-concepts/) to learn more about how to use the Answers Search UI library. 
