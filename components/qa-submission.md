@@ -1,5 +1,5 @@
 ---
-title: QA Submission
+title: QASubmission
 order: 12
 component: true
 appliesTo: Both

@@ -26,11 +26,12 @@ ANSWERS.addComponent("VerticalResults", {
 It’s very easy to override the no results template. Note: We did this because the logic is a little bit complicated (like iterating through the list of all alternative verticals, and deciding when to use plural vs. singular for “result” and “category”). We wanted you to still have access to those fancy things, even if you just wanted to customize part of the string. 
 
 You have access to the following Handlebars variables in the no results template:
-* The url for universal search: universalUrl
-* The current vertical: currentVerticalLabel
-* The query that was created: query
-* Results count for all results: resultsCount 
-* The set of all alternative verticals that returned results: verticalSuggestions
+
+- `universalUrl`- The url for universal search
+- `currentVerticalLabel` - The current vertical
+- `query` - The query that was created
+- `resultsCount` - Results count for all results
+- `verticalSuggestions` - The set of all alternative verticals that returned results
 
 You can see these in the following code sandbox:
 https://codesandbox.io/embed/blazing-breeze-uj9m7?fontsize=14&hidenavigation=1&module=%2Ftemplates.js&theme=dark

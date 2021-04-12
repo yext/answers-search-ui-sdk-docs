@@ -5,6 +5,7 @@ order: 1
 ---
 
 Answers Search UI is a JavaScript SDK that helps you build search experiences on top of the Yext Answers product.
+
 # Quick Start
 Looking to quickly try out an Answers experience? The following example uses a basic test account; if you'd like to use your own, replace `apiKey`, `experienceKey` and `businessId` with your own values. 
 
@@ -20,7 +21,7 @@ Copy-paste the stylesheet `<link>` into your `<head>` before all other styleshee
 ## JS
 Next, add the JS lib. Place the following `<script>` in your `<head>` tag. 
 ```html
-<script src="https://assets.sitescdn.net/answers/v1/answers.js"></script>
+<script src="https://assets.sitescdn.net/answers/v1/answers.min.js"></script>
 ```
 ## HTML
 Next, you'll need to place some `<div>`s in in your page's `<body>`. These `<div>`s have class names that match those specified in the component configuration, and is where the library will place the components. 
@@ -137,8 +138,8 @@ Put it all together, your pages should look like this:
 
 
 Here is a fully working example:
-{{% codesandbox blissful-franklin-3t9o0 %}}
+{{% codesandbox suspicious-roentgen-fgmjl %}}
 
 # Next
 
-Now you're up and running with a basic [Universal Results Page](../pages/universal-search-results-page)! Head over to [Core Concepts](../core-concepts/) to learn more about how to use the Answers JS library. 
+Now you're up and running with a basic [Universal Results Page](../pages/universal-search-results-page)! Head over to [Core Concepts](../core-concepts/) to learn more about how to use the Answers Search UI library. 

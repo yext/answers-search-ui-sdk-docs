@@ -1,5 +1,5 @@
 ---
-title: Vertical Results
+title: VerticalResults
 order: 6
 component: true
 appliesTo: Vertical

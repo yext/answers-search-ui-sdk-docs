@@ -72,6 +72,7 @@ apiProperties:
     default: 'Search for a filter option'
     description: The form label text for the search input
   - property: fields
+    deprecated: true
     type: object
     description: Field-specific overrides
     properties:
@@ -86,6 +87,9 @@ apiProperties:
         type: string
         default: singleopiton
         description: Control type, either singleoption or multiopton
+  - property: transformFacets
+    type: function
+    description: Allows for custom transforms of facets as they return
   - property: applyLabel
     type: string
     default: 'apply'
@@ -163,32 +167,35 @@ Often it doesn't make sense to apply the same configuration to all facets in
 an experience. For example, some facet fields may have hundreds of options and
 should be made `searchable`, but others might not.
 
-To apply configuration for particular facet fields, you can utilize the
-`fields` object. In the `fields` object, you can reset any component-wide parameter -
-such as `searchable` or `showMoreLimit` - for a specific component, like so.
+To apply configuration for particular facet fields, use the `transformFacets` option. The `transformFacets` option of the Facets component allows facets data to be fully customized. The function takes in and returns an array of the answers-core DisplayableFacet which is described [here](https://github.com/yext/answers-core/blob/master/docs/answers-core.displayablefacet.md). The function also has access to the Facets config as the second parameter.
+
+Here's an example of using this option to customize a boolean facet and make it searchable.
+
 ```js
-ANSWERS.addComponent('Facets', {
-  container: '.facets',
-  verticalKey: 'VERTICAL_KEY',
-  showMore: false,
-  searchOnChange: true,
-  fields : {
-    'paymentOptions': {
-      searchable: true,
-      showMoreLimit: 5
+transformFacets: (facets, config) => {
+  console.log(config);
+  return facets.map((facet) => {
+    console.log(facet);
+    const options = facet.options.map((option) => {
+      let displayName = option.displayName;
+      if (facet.fieldId === "c_acceptingNewPatients") {
+        if (option.value === false) {
+          displayName = "Not Accepting Patients";
+        }
+        if (option.value === true) {
+          displayName = "Accepting Patients";
+        }
+      }
+      return Object.assign({}, option, { displayName });
+    });
+    let searchable = false;
+    if (facet.fieldId === "paymentOptions") {
+      searchable = true;
     }
-  }
-});
+    return Object.assign({}, facet, { options, searchable });
+  });
+}
 ```
 
-In this example, the `paymentOptions` is searchable and has `showMoreLimit` of 5, which makes sense because
-these fields may have many several possible options.
+{{% codesandbox spring-silence-z9cur %}}
 
-Any other fields will not be searchable and will not have a `showMore`
-button, as there may be only a handful of options. The end result looks something
-like this:
-
-![Facets with field Overrides](/img/docs/facets-field-overrides.png)
-
-
-{{% codesandbox wandering-rain-4y8hp %}}

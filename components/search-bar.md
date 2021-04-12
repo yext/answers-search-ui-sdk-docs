@@ -1,5 +1,5 @@
 ---
-title: Search Bar
+title: SearchBar
 order: 1
 component: true
 appliesTo: Both
@@ -17,7 +17,11 @@ apiProperties:
   - property: submitText
     type: string
     default:
-    description: The label of the submit button. Hidden by default.      
+    description: The label of the submit button. Hidden by default.
+  - property: submitIcon
+    type: string
+    default: 
+    description: Specify pre-built icon for the search bar. If none is specified, the animated search icon will be used. See [icons](/components/icon).       
   - property: customIconUrl
     type: string
     default:
@@ -31,8 +35,8 @@ apiProperties:
     description: Placeholder text of the search bar 
   - property: allowEmptySearch
     type: boolean
-    default: false
-    description: On vertical search only, allow a user to conduct an empty search. Should be set to true if the defaultInitialSearch in the [top level search configuration](../../initialization-options/search) is "".         
+    default: false  
+    description: Allow a user to conduct an empty search. Should be set to true if the defaultInitialSearch in the [top level search configuration](../../initialization-options/search) is "".         
   - property: autoFocus
     type: boolean
     default: false

@@ -1,5 +1,5 @@
 ---
-title: Universal Results
+title: UniversalResults
 order: 5
 component: true
 appliesTo: Universal

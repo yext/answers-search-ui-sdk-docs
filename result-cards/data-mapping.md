@@ -3,10 +3,14 @@ title: Card Data Mapping
 order: 2
 ---
 
+## Background 
+
 The `dataMappings` option define how a card's attributes, such as title and details, will be rendered. It accepts either:
 
 1. A function that accepts the result item from the API and returns a dataMappings object.
 2. A static dataMappings object. Each attribute of a dataMappings object is also either a function or a static value.
+
+## Example 
 
 Below is an example of dataMappings as function.
 
