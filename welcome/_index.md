@@ -4,7 +4,11 @@ component: false
 order: 1
 ---
 
-Answers Search UI is a JavaScript SDK that helps you build search experiences on top of the Yext Answers product.
+Answers Search UI is a JavaScript SDK that helps you build search experiences on top of the Yext Answers product. 
+
+{{< protip-large title="Versions" icon="reading" color="#E6EDDD">}}
+  These docs reference **version 1.8.0**. For older versions, please visit our [Github repository](https://github.com/yext/answers-search-ui-sdk-docs) and select the desired version's tag.
+{{< /protip-large >}}
 
 # Quick Start
 Looking to quickly try out an Answers experience? The following example uses a basic test account; if you'd like to use your own, replace `apiKey`, `experienceKey` and `businessId` with your own values. 
