@@ -63,20 +63,20 @@ apiProperties:
     type: function
     required: false
     default: function() {}
-    description: Analytics callback after a vertical search, see [onVerticalSearch Configuration](../../initialization-options/on-vertical-search) for additional details 
+    description: Analytics callback after a vertical search, see [onVerticalSearch Configuration](/initialization-options/on-vertical-search) for additional details 
   - property: onUniversalSearch
     type: function
     required: false
     default: function() {}
-    description: Analytics callback after a universal search, see [onUniversalSearch Configuration](../../initialization-options/on-universal-search) for additional details 
+    description: Analytics callback after a universal search, see [onUniversalSearch Configuration](/initialization-options/on-universal-search) for additional details 
   - property: search
     type: object
     required: false
-    description: Search specific settings, see [Search Configuration](../../initialization-options/search). 
+    description: Search specific settings, see [Search Configuration](/initialization-options/search). 
   - property: verticalPages
     type: array
     required: false
-    description: provide configuration for each vertical that is shared across components, see [Vertical Pages Configuration](../../initialization-options/vertical-pages).
+    description: provide configuration for each vertical that is shared across components, see [Vertical Pages Configuration](/initialization-options/vertical-pages).
   - property: navigation
     type: object
     required: false
@@ -91,29 +91,3 @@ Adding Answers JS to a page is a two step process.
 
 1. Initialize the library
 2. Add components.
-
-## Basic Initialization
-
-The first step is to initalize the library. This is done using the **`ANSWERS.init`** command.
-This function accepts a set of configuration options.
-
-At a minimum `apiKey`, `experienceKey`, `businessId` and `experienceVersion` must be specified.
-Here is an example.
-
-```js
-ANSWERS.init({
-  apiKey: "3517add824e992916861b76e456724d9",
-  experienceKey: "answers-js-docs",
-  businessId: "3215760",
-  experienceVersion: "PRODUCTION",
-  onReady: function() {
-    // ADD COMPONENTS HERE
-  },
-});
-```
-
-The `onReady` property is used to add components. You can learn more about adding components in the [Components](../../components) section.
-
-## Additional Initialization Options
-
-Learn more about additional initialization configuration in the [Initialization Options](../../initialization-options) section.
