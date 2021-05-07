@@ -108,6 +108,12 @@ The `SearchBar` component is the main entry point for search querying.
 It provides the input box where the user types their query, as well as the autocomplete behavior.
 Search Bars can be used in both Vertical and Universal Search.
 
+{{< protip-large color="#E6EDDD" icon="megaphone" >}}
+  If you're **only adding a searchbar to the page** (instead of the full experience), we recommend using our **searchbar-only** assets. They contain only the necessary JS/CSS/hbs for the searchbar component, and are therefore optimized for page speed. The JS component has the exact same API properties as the `SearchBar` described here, with one exception: it requires a `redirectUrl`. 
+  
+  Read more about this bundle [here](../../more/bundles), and see our [Hitchhiker guide](https://hitchhikers.yext.com/guides/answers-add-searchbar-guide/01-intializethelibrary/) for further integration instructions. 
+{{< /protip-large >}}
+
 ## Default Styling
 
 Here is the default styling for a search bar:
