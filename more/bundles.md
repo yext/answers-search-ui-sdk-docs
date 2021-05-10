@@ -16,7 +16,7 @@ We also ship the following additional assets, which you can substitute in based 
 
 * JS (UMD): `https://assets.sitescdn.net/answers/v1/answers-umd.min.js`
 * JS (UMD) without polyfills: `https://assets.sitescdn.net/answers/v1/answers-modern.min.js`
-* Templates (IIFE): `https://assets.sitescdn.net/answers/v1/answerstemplates-iife.compiled.min.js`
+* Templates (IIFE): `https://assets.sitescdn.net/answers/v1/answerstemplates-iife.compiled.min.js`. Reference these using `templateBundle: TemplateBundle` instead of `templateBundle: TemplateBundle.default` in your init.
 
 ## Searchbar Only Assets
 
@@ -26,5 +26,5 @@ In addition, we ship a searchbar-only asset. This asset contains only the necess
 * JS (UMD): `https://assets.sitescdn.net/answers-search-bar/v1/answers-umd.min.js`
 * JS (UMD without polyfills): `https://assets.sitescdn.net/answers-search-bar/v1/answers-modern.min.js`
 * Templates (UMD): `https://assets.sitescdn.net/answers-search-bar/v1/answerstemplates.compiled.min.js`
-* Templates (IIFE): `https://assets.sitescdn.net/answers-search-bar/v1/answerstemplates-iife.compiled.min.js`
+* Templates (IIFE): `https://assets.sitescdn.net/answers-search-bar/v1/answerstemplates-iife.compiled.min.js`. Reference these using `templateBundle: TemplateBundle` instead of `templateBundle: TemplateBundle.default` in your init.
 * CSS: `https://assets.sitescdn.net/answers-search-bar/v1/answers.css`
