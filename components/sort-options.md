@@ -134,12 +134,11 @@ In the below example, we've updated the `defaultSortLabel` and the `label` for s
 
 {{% codesandbox cocky-leaf-6rc8r %}}
 
-
 ## What Does Ascending and Descending Mean Per Field Type?
 
-| Field                | ASC          | DESC         | 
-| -------------------- | -------------------------------------------- | ------------------------------------------- |
-| `Date`               | Oldest to most recent, IE 1/1/1990, 1/1/2020 | Most recent to oldest, IE 1/1/2020, 1/1/1990|
-| `Number`             | Smalles to largest                           | Largest to smallest                         | 
-| `Boolean`            | False, True  | True, False          | 
-| `String`              |  Special characters, then A-Z  |  Z-A, then special characters         |
+| Field        | ASC           | DESC  |
+| ------------- |--------------------- | ------------------- |
+| `Date`       | Oldest to most recent, IE 1/1/1990, 1/1/2020 |  Most recent to oldest, IE 1/1/2020, 1/1/1990|
+| `Number`         | Smallest to largest | Largest to smallest|
+| `Boolean`       | False, True | True, False |
+| `String`       | Special characters, then A-Z | Z-A, then special characters | 
