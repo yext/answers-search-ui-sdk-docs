@@ -1,6 +1,20 @@
 ---
+landing: true
 title: Core Concepts
 order: 2
+useCases:
+  - title: Push your entites in from your [database](https://www.yext.com)
+  - title: Pull entities out!
+referenceDocs:
+  - title: Reference 1
+    link: https://www.yext.com
+  - title: Reference 2
+    link: https://www.yext.com
+guides:
+  - title: Guide 1
+    link: https://www.yext.com
+  - title: Guide 2
+    link: https://www.yext.com
 ---
 
 Before diving into the API documentation, it's important to understand the core concepts of
