@@ -112,7 +112,7 @@ ANSWERS.init({
 });
 ```
 
-The `onReady` property is used to add components. You can learn more about adding components in the [Components](../../components) section.
+The `onReady` property is used to add components. You can learn more about adding components in the [Components](../components) section.
 
 ## Additional Initialization Options
 
