@@ -147,4 +147,4 @@ Here is a fully working example:
 
 # Next
 
-Now you're up and running with a basic [Universal Results Page](../pages/universal-search-results-page)! Head over to [Core Concepts](../core-concepts/) to learn more about how to use the Answers Search UI library. 
+Now you're up and running with a basic [Universal Results Page](../answers-sdk/pages/universal-search-results-page)! Head over to [Core Concepts](../answers-sdk/core-concepts/) to learn more about how to use the Answers Search UI library. 
