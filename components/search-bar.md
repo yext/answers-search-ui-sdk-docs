@@ -101,6 +101,20 @@ apiProperties:
         type: string
         default: "We are unable to determine your location"
         description: If `enabled` is true, the message in the alert.
+  - property: voiceSearch
+    type: object
+    description: Configuration related to displaying a microphone icon for conducting a search with voice using the [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API)
+    properties:
+      - property: enabled
+        type: boolean
+        default: false
+        description: Whether to display the voice search icon.
+      - property: customMicIconUrl
+        type: string
+        description: A URL for an image that replaces the default microphone icon
+      - property: customListeningIconUrl
+        type: string
+        description: A URL for an image that replaces the default listening icon
 
 ---
 
