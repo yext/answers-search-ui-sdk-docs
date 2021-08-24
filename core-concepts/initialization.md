@@ -48,7 +48,12 @@ apiProperties:
     type: boolean
     required: false
     default: true
-    description: If true, the search session is tracked using session storage and cookies. If false, there is no tracking. 
+    description: If true, the search session is tracked using session storage and session cookies. If false, there is no tracking. Can also be set using the `setSessionSessionOption(bool)` function.
+  - property: analyticsEventsEnabled
+    type: boolean
+    required: false
+    default: true
+    description: If true, analytics events are sent when users engage with the experience. If false, no analytics events are set. Can also be set using the `setAnalyticsOptIn(bool)` function.
   - property: disableCssVariablesPonyfill
     type: boolean
     required: false
@@ -82,8 +87,13 @@ apiProperties:
     required: false
     deprecated: true
     description: Provide navigation configuration including tab configurations. Use `verticalPages` instead.
-
+  - property: querySource
+    type: string
+    required: false
+    default: "STANDARD"
+    description: The analytics key describing the Answers integration type. Accepts 'STANDARD', 'OVERLAY', or arbitrary strings. Can be updated using `ANSWERS.setQuerySource(string)`.
 ---
+
 
 
 
@@ -116,4 +126,4 @@ The `onReady` property is used to add components. You can learn more about addin
 
 ## Additional Initialization Options
 
-Learn more about additional initialization configuration in the [Initialization Options](../../initialization-options) section.
+Learn more about additional initialization configuration below and in the [Initialization Options](../../initialization-options) section.
