@@ -49,7 +49,7 @@ apiProperties:
     required: false
     default: true
     description: If true, the search session is tracked using session storage and session cookies. If false, there is no tracking. Can also be set using the `setSessionSessionOption(bool)` function.
-    - property: analyticsEventsEnabled
+  - property: analyticsEventsEnabled
     type: boolean
     required: false
     default: true
