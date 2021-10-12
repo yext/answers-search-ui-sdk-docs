@@ -44,7 +44,7 @@ The `VerticalResults` component is similar to `UniversalResults` but just render
 single vertical. It displays a list of results where each result is rendered as a card.
 
 > To learn more about how to design a full Vertical Results pages, check out the
-> [Vertical Search Results](../pages/vertical-search-results-page).
+> [Vertical Search Results](../../pages/vertical-search-results-page).
 
 ## Specifying the Vertical
 
