@@ -23,7 +23,7 @@ apiProperties:
   - property: businessId
     type: string
     required: false
-    description: Yext businessId, **strongly encouraged** to send analytics requests.     
+    description: Yext businessId, **strongly encouraged**. If not provided, analytics requests will not succeed. 
   - property: useTemplates
     type: boolean
     required: false
