@@ -10,7 +10,7 @@ Answers Search UI is a JavaScript SDK that helps you build search experiences on
 {{< protip-large title="Contributions and Versioning" icon="megaphone" color="#E6EDDD">}}
   Have an idea for improving our documentation? Make a contribution to our [Github repository](https://github.com/yext/answers-search-ui-sdk-docs) by submitting a pull request.
   
-  These docs reference **version 1.11.0**. For older versions, please visit our repository linked above and select the desired version's tag.
+  These docs reference **version 1.12.0**. For older versions, please visit our repository linked above and select the desired version's tag.
 {{< /protip-large >}}
 
 # Quick Start
