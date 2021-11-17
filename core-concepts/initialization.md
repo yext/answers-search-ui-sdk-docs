@@ -6,11 +6,11 @@ apiProperties:
   - property: apiKey
     type: string
     required: true
-    description: Your API key; this or `token` is required
+    description: Your API key; this or `token` is required, but both cannot be specified.
   - property: token
     type: string
     required: false
-    description: A JWT used to access Answers; this or `apiKey` is required. If specified, this will be passed in the `authorization` header of the API request
+    description: A JWT used to access Answers; this or `apiKey` is required, but both cannot be specified. If specified, this will be passed in the `authorization` header of the API request.
   - property: experienceKey
     type: string
     required: true
