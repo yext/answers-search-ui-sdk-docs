@@ -2,7 +2,7 @@
 title: Welcome to Answers Search UI SDK
 sidebarTitle: Answers Search UI SDK
 component: false
-order: 3
+order: 7
 ---
 
 Answers Search UI is a JavaScript SDK that helps you build search experiences on top of the Yext Answers product. 
